@@ -8,15 +8,15 @@ p {
 }
 
 a {
-    color: #fed136;
+    color: black;
 }
 
 a:hover {
-    color: #fec503;
+    color: black;
 }
 
 .text-primary {
-    color: #fed136 !important;
+    color: black !important;
 }
 
 h1,
@@ -55,12 +55,12 @@ h6 {
 }
 
 ::-moz-selection {
-    background: #fed136;
+    background: black;
     text-shadow: none;
 }
 
 ::selection {
-    background: #fed136;
+    background: black;
     text-shadow: none;
 }
 
@@ -120,7 +120,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-    color: #fed136;
+    color: black;
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -128,7 +128,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: black;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,27 +136,27 @@ img::-moz-selection {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: black;
 }
 
 @media (min-width: 992px) {
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
+        /*        transition: padding-top 0.3s, padding-bottom 0.3s;*/
         border: none;
         background-color: transparent;
     }
 
     #mainNav .navbar-brand {
         font-size: 1.75em;
-        transition: all 0.3s;
+        /*        transition: all 0.3s;*/
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
@@ -181,7 +181,7 @@ header.masthead {
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 }
 
